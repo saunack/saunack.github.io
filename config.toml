@@ -1,0 +1,57 @@
+baseURL = "https://raditian-hugo.radity.com/"
+languageCode = "en-us"
+
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "css/main.css"
+  [[params.plugins.css]]
+  URL = "css/rad-icons.css"
+  [[params.plugins.css]]
+  URL = "css/custom.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "js/rad-animations.js"
+  [[params.plugins.js]]
+  URL = "js/sticky-header.js"
+  [[params.plugins.js]]
+  URL = "js/library/fontfaceobserver.js"
+
+
+# navigation
+[menu]
+
+# header and footer will have the same 
+  [[menu.header]]
+  name = "About"
+  URL = "#about"
+  weight = 2
+
+  [[menu.header]]
+  name = "Works"
+  URL = "#work"
+  weight = 3
+
+#   [[menu.header]]
+#   name = "Contact"
+#   URL = "#contact"
+#   weight = 4
+
+
+[params]
+
+  sections = ["showcase", "about", "education", "experience", "work", "client", "testimonial", "contact"]
+
+  [params.logo]
+    text1 = ""
+    text2 = "."
+
+  [params.footer]
+      copyright = "Credits: Hugo and Raditian. © Raditian. All rights reserved."
+      [params.footer.radity_logo]
+        x = "img/general/design-and-code-radity.png"
+        _2x = "img/general/design-and-code-radity@2x.png"
+        alt = "Design & Code - Radity"

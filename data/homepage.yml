@@ -1,0 +1,202 @@
+# head tags
+head:
+  title: "Kumar Saunack | Personal webpage"
+  icon: "img/general/favicon.ico"
+  author: "Saunack"
+  description: "CSE graduate, IIT Bombay, Class of 2020"
+  keywords: "saunack, computer science, NLP, IIT Bombay, ProdigalTech, MSCI"
+
+# showcase
+showcase:
+  enable: False
+  title: "Hello, I’m Andreas."
+  subtitle: "Front-End Developer"
+  description: "I work at <a target='_blank' href='https://radity.com/'>Radity</a>, a software development company in Switzerland. And I am a Raditian. You get the idea where theme name comes from. Keep cool, stay in touch. You can download this theme from <a target='_blank' href='https://github.com/radity/raditian-free-hugo-theme'>github</a>."
+  image:
+    x: "img/showcase/showcase.png"
+    _2x: "img/showcase/showcase@2x.png"
+  imageMobile:
+    x: "img/showcase/showcase-mobile.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "https://radity.com/en/contact/"
+
+  mailLink:
+    - icon: "mail"
+      mail: "kr.snck54@gmail.com"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/company/radity/"
+
+    - icon: "github"
+      URL: "https://github.com/radity"
+
+# about
+about:
+  enable: true
+  title: "Kumar Saunack"
+  subtitle: "CSE, IITB 2020 graduate"
+  content: '<p class="lead">
+    I recently graduated from CSE w. Honors from IIT Bombay. My area of focus lies in NLP, and during my stay in college, I was affiliated with the CFILT lab. I finished my B.Tech. thesis under <a href="https://www.cse.iitb.ac.in/~pb/">Prof. Pushpak Bhattacharyya</a>. I will be joining MSCI India as an Analyst in the Data Science team.
+    </p>
+    <p class="lead">
+    My interests include playing tennis and <a href="https://www.goodreads.com/user/show/10093425-kumar-saunack">reading books</a>.
+    </p>'
+  image:
+    x: "img/who-am-i/dp.png"
+    _2x: "img/who-am-i/dp@2x.png"
+
+  mailID: "krsaunack@cse.iitb.ac.in"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/krsaunack"
+
+    - icon: "github"
+      URL: "https://github.com/saunack"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "IIT Bombay"
+      year: "2016-2020"
+      degree: "B.Tech., CSE (Honors)"
+      thesis: "data/BTP.pdf"
+    #- university: "Delhi Public School"
+      #year: "2009-2012"
+      #degree: "High School Diploma, Sciences, Math, Computer & Business Studies"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "Working on developing NLP systems for niche platforms as well as the Indian language diaspora."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/krsaunack"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Resume/CV"
+    URL: "data/resume.pdf"
+
+  items:
+    - title: "Back-End Developer, NLP"
+      company: "MSCI"
+      duration: "2020 - "
+
+    - title: "Research Intern, NLP"
+      company: "ProdigalTech"
+      duration: "2019"
+
+    - title: "Research Intern, 5G networks"
+      company: "NUS"
+      duration: "2018"
+
+work:
+  title: "Papers"
+  enable: true
+  
+  works:
+    - title: '“A Passage to India”: Pre-trained Word Embeddings for Indian Languages'
+      authors: "Kumar Saurav, Kumar Saunack, Diptesh Kanojia, Pushpak Bhattacharyya"
+      venue: "SLTU-CCURL joint workshop, LREC 2020"
+      url: "https://www.aclweb.org/anthology/2020.sltu-1.49/"
+    
+    #- title: "Under peer review"
+      #authors: "Kumar Saurav, Kumar Saunack, Pushpak Bhattacharyya"
+      #venue: "tbd"
+      #url: "#"
+
+    #- title: "Under peer review"
+      #authors: "Kumar Saurav, Kumar Saunack, Pushpak Bhattacharyya"
+      #venue: "tbd"
+      #url: "#"
+
+    #- title: "Under draft"
+      #authors: "tbd"
+      #venue: "tbd"
+      #url: "#"
+
+# Client & Work
+client:
+  title: "Works"
+  enable: False
+
+  clients:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+  works:
+    - title: "Radity Finance - UI Kit"
+      description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/radity-finance.jpg"
+        _2x: "img/works/radity-finance@2x.jpg"
+      is_even: true
+
+    - title: "Swiss Fintech Website"
+      description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/swissfintech.jpg"
+        _2x: "img/works/swissfintech@2x.jpg"
+      is_even: false
+
+    - title: "Robo Advisor"
+      description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/robo-advisor.jpg"
+        _2x: "img/works/robo-advisor@2x.jpg"
+      is_even: true
+
+# testimonial
+testimonial:
+  enable: False
+  title: "Testimonials"
+  items:
+    - name: "Daniel Jordan"
+      position: "Phonet, CEO"
+      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
+      image:
+        x: "img/testimonials/daniel-jordan.jpg"
+        _2x: "img/testimonials/daniel-jordan@2x.jpg"
+
+# contact
+contact:
+  enable: False
+  title: "Contact"
+  form:
+    action: "mailto:krsaunack@cse.iitb.ac.in"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+
+# newsletter
+newsletter:
+  enable: False
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
